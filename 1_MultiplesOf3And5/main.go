@@ -7,7 +7,7 @@ func main() {
 }
 
 func SumMultiplesBelow(n int) int {
-	mults := []int{ 3, 5 }
+	mults := []int{3, 5}
 	var sum int = 0
 
 	for i := 1; i < n; i++ {
@@ -21,7 +21,7 @@ func SumMultiplesBelow(n int) int {
 
 func IsMultipleOf(n int, multiples []int) bool {
 	for _, mult := range multiples {
-		if n % mult == 0 {
+		if n%mult == 0 {
 			return true
 		}
 	}
